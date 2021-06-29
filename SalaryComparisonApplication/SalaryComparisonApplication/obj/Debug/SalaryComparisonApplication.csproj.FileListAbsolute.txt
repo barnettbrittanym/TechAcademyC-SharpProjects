@@ -1,0 +1,7 @@
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\SalaryComparisonApplication\SalaryComparisonApplication\bin\Debug\SalaryComparisonApplication.exe.config
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\SalaryComparisonApplication\SalaryComparisonApplication\bin\Debug\SalaryComparisonApplication.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\SalaryComparisonApplication\SalaryComparisonApplication\bin\Debug\SalaryComparisonApplication.pdb
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\SalaryComparisonApplication\SalaryComparisonApplication\obj\Debug\SalaryComparisonApplication.csproj.AssemblyReference.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\SalaryComparisonApplication\SalaryComparisonApplication\obj\Debug\SalaryComparisonApplication.csproj.CoreCompileInputs.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\SalaryComparisonApplication\SalaryComparisonApplication\obj\Debug\SalaryComparisonApplication.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\SalaryComparisonApplication\SalaryComparisonApplication\obj\Debug\SalaryComparisonApplication.pdb
