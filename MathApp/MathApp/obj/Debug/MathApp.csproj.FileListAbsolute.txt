@@ -1,0 +1,7 @@
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\MathApp\MathApp\bin\Debug\MathApp.exe.config
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\MathApp\MathApp\bin\Debug\MathApp.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\MathApp\MathApp\bin\Debug\MathApp.pdb
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\MathApp\MathApp\obj\Debug\MathApp.csproj.AssemblyReference.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\MathApp\MathApp\obj\Debug\MathApp.csproj.CoreCompileInputs.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\MathApp\MathApp\obj\Debug\MathApp.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\MathApp\MathApp\obj\Debug\MathApp.pdb
