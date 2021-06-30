@@ -24,7 +24,8 @@
             Console.WriteLine("Please enter the package length:");
             int packageLength = Convert.ToInt32(Console.ReadLine());
 
-            if (packageWidth > 50 || packageHeight > 50 || packageLength >50)
+            //Qualifying the package to see if it is able to be shipped
+            if (packageWidth+packageHeight+packageLength >50)
             {
                 Console.WriteLine("Package too big to be shipped via Package Express.");
                 Console.ReadLine();
