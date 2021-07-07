@@ -1,0 +1,7 @@
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\gettingLoopy\gettingLoopy\bin\Debug\gettingLoopy.exe.config
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\gettingLoopy\gettingLoopy\bin\Debug\gettingLoopy.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\gettingLoopy\gettingLoopy\bin\Debug\gettingLoopy.pdb
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\gettingLoopy\gettingLoopy\obj\Debug\gettingLoopy.csproj.AssemblyReference.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\gettingLoopy\gettingLoopy\obj\Debug\gettingLoopy.csproj.CoreCompileInputs.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\gettingLoopy\gettingLoopy\obj\Debug\gettingLoopy.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\gettingLoopy\gettingLoopy\obj\Debug\gettingLoopy.pdb
