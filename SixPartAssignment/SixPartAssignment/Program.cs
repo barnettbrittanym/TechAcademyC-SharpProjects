@@ -83,21 +83,20 @@ using System.Collections.Generic;
         List<string> superheroes = new List<string>() { "Batman", "Iron Man", "Hulk", "Thor", "Spiderman", "Batman"};
         Console.WriteLine("Please enter the name of a superhero to determine if it is on the list:");
         string superName = Console.ReadLine();
-        int superIndex = superheroes.IndexOf(superName);
-
-
+        bool isPresent = false;
+        
         //Loops through the list of super heroes to find the users input and returns the index of the value
-        foreach (string superhero in superheroes)
+        for (int i = 0; i < superheroes.Count; i++)
         {
-            if (superheroes.Contains(superName))
+            if (superName == superheroes[i])
             {
-                Console.WriteLine("Your hero is on the list! They are in position:{0}", superIndex);
-                break;
+                isPresent = true;
+                Console.WriteLine(superName + " is present at index {0}", i);
             }
+                
             else
             {
-                Console.WriteLine("I am sorry your superhero is not on the list.");
-                break;
+                isPresent = false;
             }
 
         }
@@ -105,17 +104,17 @@ using System.Collections.Generic;
 
         //Adding a list of strings that has identical strings
         List<string> disneyMovies = new List<string>() { "Bambi", "Pinocchio", "Snow White", "Robin Hood", "Beauty and the Beast", "Snow White", "The Lion King", "Aladdin" };
-        
+        var movieList = new List<string>();
         foreach (string movie in disneyMovies)
         {
-            if (disneyMovies.Contains(movie))
+            if (!movieList.Contains(movie))
             {
-                int result = disneyMovies.FindAll();
-                Console.WriteLine(movie +" -This movie has already appeared on this list.");
+                movieList.Add(movie);
+                Console.WriteLine("I have not seen {0} in the list before.", movie);
             }
             else
             {
-                Console.WriteLine(movie + "-This is the first occurance of this movie.");
+                Console.WriteLine(movie + " is already on the list.");
             }
         }
         Console.ReadLine();
