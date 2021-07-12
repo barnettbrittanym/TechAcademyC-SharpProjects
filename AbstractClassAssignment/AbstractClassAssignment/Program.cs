@@ -19,6 +19,13 @@ namespace AbstractClassAssignment
 
             //Calling the SayName method in the employee class based on the the Person class
             employee.SayName();
+
+            //Using polymorphism to create a new instanc
+            IQuittable quitting = new Employee();
+
+            //Calling the Quit Method
+            quitting.Quit();
+
             Console.ReadLine();
         }
     }

@@ -5,3 +5,10 @@ C:\Users\Brittany Barnett\source\repos\AbstractClassAssignment\AbstractClassAssi
 C:\Users\Brittany Barnett\source\repos\AbstractClassAssignment\AbstractClassAssignment\obj\Debug\AbstractClassAssignment.csproj.CoreCompileInputs.cache
 C:\Users\Brittany Barnett\source\repos\AbstractClassAssignment\AbstractClassAssignment\obj\Debug\AbstractClassAssignment.exe
 C:\Users\Brittany Barnett\source\repos\AbstractClassAssignment\AbstractClassAssignment\obj\Debug\AbstractClassAssignment.pdb
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\AbstractClassAssignment\AbstractClassAssignment\bin\Debug\AbstractClassAssignment.exe.config
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\AbstractClassAssignment\AbstractClassAssignment\bin\Debug\AbstractClassAssignment.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\AbstractClassAssignment\AbstractClassAssignment\bin\Debug\AbstractClassAssignment.pdb
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\AbstractClassAssignment\AbstractClassAssignment\obj\Debug\AbstractClassAssignment.csproj.AssemblyReference.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\AbstractClassAssignment\AbstractClassAssignment\obj\Debug\AbstractClassAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\AbstractClassAssignment\AbstractClassAssignment\obj\Debug\AbstractClassAssignment.exe
+C:\Users\Brittany Barnett\Desktop\Basic_C#_Programs\AbstractClassAssignment\AbstractClassAssignment\obj\Debug\AbstractClassAssignment.pdb
