@@ -9,7 +9,7 @@ namespace AbstractClassAssignment
     //Creating the abstract class Person
     public abstract class Person
     {
-        //Setting variables in the abstract class
+        //Setting properties in the abstract class
         public string firstName { get; set; }
         public string lastName { get; set; }
 
