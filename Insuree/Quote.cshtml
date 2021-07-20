@@ -1,0 +1,104 @@
+﻿@model CarInsurance.Models.Insuree
+
+@{
+  ViewBag.Title = "Quote";
+}
+
+<h2>Please input your information to get your free auto insurance quote today!</h2>
+@using (Html.BeginForm())
+{
+  @Html.AntiForgeryToken()
+}
+<div class="form-horizontal">
+  <hr />
+  @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+  <div class="form-group">
+
+    <div class="col-md-10">
+      <label class"control-label col-md-2">First name:</label>
+      @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Last name:</label>
+      @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Email Address:</label>
+      @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Date of Birth:</label>
+      @Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Vehicle Year:</label>
+      @Html.EditorFor(model => model.CarYear, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.CarYear, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Vehicle Make:</label>
+      @Html.EditorFor(model => model.CarMake, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.CarMake, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Vehicle Model:</label>
+      @Html.EditorFor(model => model.CarModel, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.CarModel, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Have you had any previous DUIs? Please check if yes:</label>
+      <div class="checkbox">
+        @Html.EditorFor(model => model.DUI)
+        @Html.ValidationMessageFor(model => model.DUI, "", new { @class = "text-danger" })
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Please indicate the number of speeding tickets you have received in the past 12 months:</label>
+      @Html.EditorFor(model => model.SpeedingTickets, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.SpeedingTickets, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-md-10">
+      <label class"control-label col-md-2">Please indicate the type of coverage you are interested in. Check for full coverage:</label>
+      <div class="checkbox">
+        @Html.EditorFor(model => model.CoverageType)
+        @Html.ValidationMessageFor(model => model.CoverageType, "", new { @class = "text-danger" })
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+      <input type="submit" value="GetQuote" class="btn btn-default" />
+    </div>
+  </div>
+
