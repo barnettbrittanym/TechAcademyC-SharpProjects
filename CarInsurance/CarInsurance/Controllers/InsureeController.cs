@@ -20,13 +20,7 @@ namespace CarInsurance.Controllers
             return View(db.Insurees.ToList());
         }
 
-        //GET: Insuree/Quote
-        public ActionResult Quote()
-        {
-            return View();
-        }
-        
-        
+      
 
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
@@ -107,7 +101,7 @@ namespace CarInsurance.Controllers
 
             decimal finalQuote = totalQuote + oopsieAdjustment;
 
-            
+            insuree.Quote = finalQuote;
 
 
             if (ModelState.IsValid)
